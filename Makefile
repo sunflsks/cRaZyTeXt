@@ -5,8 +5,8 @@ ARCHS = arm64 arm64e
 
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = FancyText
+TWEAK_NAME = cRaZyTeXt
 
-FancyText_FILES = Tweak.x TextUtils.m
-FancyText_CFLAGS = -fobjc-arc
+cRaZyTeXt_FILES = Tweak.x TextUtils.m
+cRaZyTeXt_CFLAGS = -fobjc-arc
 include $(THEOS_MAKE_PATH)/tweak.mk
