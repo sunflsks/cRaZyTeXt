@@ -1,0 +1,9 @@
+Package: us.sudhip.fancytext
+Name: FancyText
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: An awesome MobileSubstrate tweak!
+Maintainer: Sudhip
+Author: Sudhip
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
