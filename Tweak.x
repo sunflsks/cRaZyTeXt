@@ -26,7 +26,7 @@
     if (self.editable) {
         dispatch_async(dispatch_get_main_queue(), ^{
             NSString* originalText = self.text;
-            NSString* newString = zalgoText(originalText, 6);
+            NSString* newString = zalgoText(originalText, HIGH);
             [self insertText: newString];
         });
     }
