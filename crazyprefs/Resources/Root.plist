@@ -26,18 +26,14 @@
 			<key>validValues</key>
 			<array>
 				<string>1</string>
-				<string>2</string>
 				<string>3</string>
-				<string>4</string>
 				<string>5</string>
 			</array>
 
 			<key>validTitles</key>
 			<array>
 				<string>Low</string>
-				<string>Low-Med</string>
 				<string>Med</string>
-				<string>Med-High</string>
 				<string>High</string>
 			</array>
 		</dict>
