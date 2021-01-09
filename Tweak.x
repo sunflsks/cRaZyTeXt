@@ -1,5 +1,5 @@
 #include "TextUtils.h"
-
+#include "PrefsUtils.h"
 %hook UITextView
 
 -(BOOL)canPerformAction:(SEL)action withSender:(id)sender {
@@ -26,7 +26,7 @@
     if (self.editable) {
         dispatch_async(dispatch_get_main_queue(), ^{
             NSString* originalText = self.text;
-            NSString* newString = zalgoText(originalText, HIGH);
+            NSString* newString = zalgoText(originalText, crazyLevel());
             [self insertText: newString];
         });
     }

@@ -114,35 +114,45 @@ NSString* zalgoChar(NSString* character, NSUInteger craziness) {
     switch (craziness) {
         default:
         case LOW:
+            #ifdef DEBUG
             NSLog(@"zalgo low");
+            #endif
             up_count = arc4random_uniform(8);
             mid_count = arc4random_uniform(2);
             down_count = arc4random_uniform(8);
             break;
 
         case LOW_MED:
-                    NSLog(@"zalgo lowmed");
+            #ifdef DEBUG
+            NSLog(@"zalgo lowmed");
+            #endif
             up_count = arc4random_uniform(12) / 2 + 2;
             mid_count = arc4random_uniform(4);
             down_count = arc4random_uniform(12) / 2 + 2;
             break;
 
         case MED:
-                    NSLog(@"zalgo med");
+            #ifdef DEBUG
+            NSLog(@"zalgo med");
+            #endif
             up_count = arc4random_uniform(16) / 2 + 1;
             mid_count = arc4random_uniform(6) / 2;
             down_count = arc4random_uniform(16) / 2 + 1;
             break;
 
         case MED_HIGH:
-                    NSLog(@"zalgo medhigh");
+            #ifdef DEBUG
+            NSLog(@"zalgo medhigh");
+            #endif
             up_count = arc4random_uniform(32) / 3 + 4;
             mid_count = arc4random_uniform(8) / 3 + 1;
             down_count = arc4random_uniform(32) / 3 + 4;
             break;
 
         case HIGH:
+            #ifdef DEBUG
             NSLog(@"zalgo high");
+            #endif
             up_count = arc4random_uniform(64) / 4 + 3;
             mid_count = arc4random_uniform(16) / 4 + 1;
             down_count = arc4random_uniform(64) / 4 + 3;

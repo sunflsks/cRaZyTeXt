@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+
+			<key>defaults</key>
+			<string>us.sudhip.crazyprefs</string>
+
+			<key>default</key>
+			<integer>1</integer>
+
+			<key>key</key>
+			<string>crazyLevel</string>
+
+			<key>label</key>
+			<string>Zalgo Level</string>
+
+			<key>detail</key>
+			<string>PSListItemsController</string>
+
+			<key>validValues</key>
+			<array>
+				<string>1</string>
+				<string>2</string>
+				<string>3</string>
+				<string>4</string>
+				<string>5</string>
+			</array>
+
+			<key>validTitles</key>
+			<array>
+				<string>Low</string>
+				<string>Low-Med</string>
+				<string>Med</string>
+				<string>Med-High</string>
+				<string>High</string>
+			</array>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>crazyprefs</string>
+</dict>
+</plist>
